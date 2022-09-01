@@ -1,0 +1,113 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'bot_pro_page_title' %}</title>
+    </head>
+    <body id="botPro">
+
+        <div class="bt_back_div">
+            {% include "main/bloques_codigo/bt_back.html" %}
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+        <div id="main">
+            <div class="bloqueTexto" id="disclaimer">
+                <p>
+                    <b>{% trans 'Disclaimer: ' %}</b>{% trans 'disclaimer_text' %}
+                </p>
+            </div>
+
+            <div class="bloqueTexto" id="contexto">
+                <h1>{% trans 'bot_context_header' %}</h1>
+                <h3>{% trans 'bot_general_header' %}</h3>
+                <p>
+                    {% trans 'bot_general_0' %}
+                </p>
+                <div class="containerVid">
+                    <video class="im_grande" id="vidCombate" controls>
+                        <source src="{% static 'images/pokemon/combate1.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                    <p>{% trans 'bot_general_1' %}
+                        <br><br>
+                        {% trans 'bot_general_2' %}
+                        <br><br>
+                        {% trans 'bot_general_3' %}
+                    </p>
+                </div>
+
+                <h3>{% trans 'bot_wildpokemon_header' %}</h3>
+                <p>{% trans 'bot_wildpokemon_0' %}</p>
+                <br>
+                <div class="containerVid">
+                    <p>
+                        {% trans 'bot_wildpokemon_1' %}
+                    </p> 
+                    <img class="im_grande" src="{% static 'images/pokemon/stats.png' %}" alt="stats">
+
+                </div>             
+                <p>
+                    
+                </p>
+            </div>
+
+            <div class="bloqueTexto">
+                <h1>{% trans 'bot_howitworks_header' %}</h1>
+                <p>
+                    {% trans 'bot_howitworks_0' %}
+                    <br><br>
+                    {% trans 'bot_howitworks_1' %}
+                </p>
+                <div class="containerVid">
+                    <img class="im_grande" id="gui" src="{% static 'images/pokemon/gui.png' %}" alt="gui">
+                    <p>{% trans 'bot_howitworks_2' %} 
+                        <img class="btmasmenos" src="{% static 'images/pokemon/mas.png' %}" alt="aa"> {% trans 'bot_howitworks_2_1' %} <img src="{% static 'images/pokemon/menos.png' %}" alt="aa">
+                        {% trans 'bot_howitworks_2_2' %}
+                        <br>
+                        <br>
+                        {% trans 'bot_howitworks_3' %}
+                        <a href="https://pokemondb.net/pokedex/all" style="text-decoration: underline; color:blue;">{% trans 'bot_aqui' %}</a>.
+                        <br><br>
+                        {% trans 'bot_howitworks_4' %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="bloqueTexto" id="contexto">
+                <h1>{% trans 'bot_extra_header' %}</h1>
+                <h3>{% trans 'bot_pokedex_header' %}</h3>
+                    <p>{% trans 'bot_pokedex_0' %}</p>
+                <div class="containerVid">
+                    <video class="im_grande" id="vidPokedex" controls>
+                        <source src="{% static 'images/pokemon/pokedex.mp4' %}" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                    <p>{% trans 'bot_pokedex_1' %}
+                    </p>
+                </div>
+
+                <h3>{% trans 'bot_telegram_header' %}</h3>
+                <p>{% trans 'bot_telegram_0' %}</p>
+                <div class="containerVid">
+                    <p>{% trans 'bot_telegram_1' %}
+                    </p>
+
+                    <div class="im_grande" id="prev" >
+                        <img  src="{% static 'images/pokemon/prev.jpg' %}" alt="">
+                    </div>
+
+                </div>
+                <p>{% trans 'bot_telegram_2' %}
+                </p>
+                <div class="containerVid">
+                    <img class="im_grande" id="tele_bot_img" src="{% static 'images/pokemon/telegram.jpg' %}" alt="">
+                </div>
+            </div>
+
+        </div>
+        {% include "main/bloques_codigo/footer.html" %}
+
+    </body>
+</html>

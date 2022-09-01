@@ -1,0 +1,37 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'extra_page_title' %}</title>
+    </head>
+    <body id="extra">
+
+        <div class="bt_back_div">
+            {% include "main/bloques_codigo/bt_back.html" %}
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+        
+        <div class="tituloPag">
+            <div class="apartado">
+                <h1>{% trans 'header_minigames' %}</h1>
+                <div class="tarjeta_item">
+                    <a class="clickable_li" href="jiay">
+                        <div class="row">
+                            <div class="img_cont">
+                                <img src="{% static 'images\spaceinv.png' %}" alt="boticon">
+                            </div>
+
+                            <p class="header_text">
+                                {% trans 'JIAY' %}
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        {% include "main/bloques_codigo/footer.html" %}
+    </body>
+</html>

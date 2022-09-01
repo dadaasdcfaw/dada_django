@@ -1,0 +1,24 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'only_desktop_page_title' %}</title>
+    </head>
+    <body>
+        <div class="bt_back_div">
+            {% include "main/bloques_codigo/bt_back.html" %}
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+        <!-- &#127467; Emoji F-->
+        <!-- &#129414; Emoji pato-->
+        <div id="only_desktop_msg">
+            <h1> &#127467;</h1>
+            <p >
+                {% trans 'only_desktop_msg' %} &#129414;
+            </p>
+        </div>
+        {% include "main/bloques_codigo/footer.html" %}
+    </body>
+</html>

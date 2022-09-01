@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-31 15:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\main\templates\main\bloques_codigo\bt_back.html:5
+msgid "back_button_text"
+msgstr "Volver"
+
+#: .\main\templates\main\bloques_codigo\footer.html:7
+msgid "footer_contact_header"
+msgstr "Contacto"
+
+#: .\main\templates\main\bloques_codigo\footer.html:8
+msgid "footer_social_header"
+msgstr "Social"
+
+#: .\main\templates\main\bloques_codigo\footer.html:13
+msgid "footer_academic_title"
+msgstr "Ingeniero de Software"
+
+#: .\main\templates\main\bloques_codigo\footer.html:16
+msgid "footer_mail_address_0"
+msgstr "josebarrosribademar"
+
+#: .\main\templates\main\bloques_codigo\footer.html:16
+msgid "footer_mail_address_1"
+msgstr "@gmail.com"
+
+#: .\main\templates\main\bloques_codigo\footer.html:24
+msgid "footer_linkedin"
+msgstr "LinkedIn"
+
+#: .\main\templates\main\bloques_codigo\footer.html:32
+msgid "footer_github"
+msgstr "GitHub"
+
+#: .\main\templates\main\bloques_codigo\footer.html:45
+msgid "footer_copyright_icons"
+msgstr "Iconos animados de los botones creados por Freepik - Flaticon"
+
+#: .\main\templates\main\bloques_codigo\footer.html:48
+msgid "favicon_credit_0"
+msgstr "Favicon bajo licencia "
+
+#: .\main\templates\main\bloques_codigo\footer.html:49
+msgid "favicon_credit_1"
+msgstr "CC-BY 4.0"
+
+#: .\main\templates\main\botPro.html:7
+msgid "bot_pro_page_title"
+msgstr "Pokémon Revolution Online bot. Cómo se hizo"
+
+#: .\main\templates\main\botPro.html:18
+msgid "Disclaimer: "
+msgstr "Disclaimer: "
+
+#: .\main\templates\main\botPro.html:18
+msgid "disclaimer_text"
+msgstr ""
+"Al tratarse de un videojuego en línea, herramientas como esta tienen efectos "
+"muy negativos en la salud del mismo. El bot no se encuentra disponible para "
+"descarga, ni ahora ni nunca. En su momento, se desarrolló con fines "
+"meramente didácticos. "
+
+#: .\main\templates\main\botPro.html:23
+msgid "bot_context_header"
+msgstr "Contexto"
+
+#: .\main\templates\main\botPro.html:24
+msgid "bot_general_header"
+msgstr "General"
+
+#: .\main\templates\main\botPro.html:26
+msgid "bot_general_0"
+msgstr ""
+"Los videojuegos de Pokémon están basados en unas criaturas que utilizan los "
+"jugadores para combatir. Estas criaturas llamadas Pokémon son capturadas y "
+"posteriormente entrenadas. Los Pokémon salvajes aparecen cuando el jugador "
+"se mueve por unas zonas determinadas. "
+
+#: .\main\templates\main\botPro.html:33
+msgid "bot_general_1"
+msgstr ""
+"Cuando un Pokémon aparece, comienza una batalla. La batalla concluye cuando "
+"el jugador huye o el Pokémon enemigo es derrotado o capturado. "
+
+#: .\main\templates\main\botPro.html:35
+msgid "bot_general_2"
+msgstr ""
+"Las especies de Pokémon más fuertes aparecen con menos frecuencia, "
+"representando el 0.1% de los encuentros en algunos casos. "
+
+#: .\main\templates\main\botPro.html:37
+msgid "bot_general_3"
+msgstr ""
+"Además de la especie o especies de Pokémon a capturar, es posible configurar "
+"la habilidad que deben tener. "
+
+#: .\main\templates\main\botPro.html:41
+msgid "bot_wildpokemon_header"
+msgstr "Pokémon salvajes"
+
+#: .\main\templates\main\botPro.html:42
+msgid "bot_wildpokemon_0"
+msgstr ""
+"Los Pokémon cuentan con numerosos atributos que diferencian a los "
+"individuous de la misma especie. Estos atributos hacen que sean mejores o "
+"peores para según que rol dentro del equipo."
+
+#: .\main\templates\main\botPro.html:46
+msgid "bot_wildpokemon_1"
+msgstr ""
+"Los atributos de los Pokémon salvajes se deciden al azar cuando estos "
+"aparecen, aunque no se pueden conocer hasta que son capturados. La habilidad "
+"de un Pokémon salvaje es el único atributo que sí se puede conocer antes de "
+"que sea capturado."
+
+#: .\main\templates\main\botPro.html:57
+msgid "bot_howitworks_header"
+msgstr "Funcionamiento"
+
+#: .\main\templates\main\botPro.html:59
+msgid "bot_howitworks_0"
+msgstr ""
+"En líneas generales, el bot introduce entradas de teclado en el juego como "
+"si de una persona se tratase, en función de la información que aparece en "
+"pantalla en cada momento. Las diferentes subrutinas por las que el bot "
+"ejecuta acciones pueden entenderse como una máquina de estados finitos. Los "
+"estados se sincronizan usando tecnología multihilo. "
+
+#: .\main\templates\main\botPro.html:61
+msgid "bot_howitworks_1"
+msgstr ""
+"El jugador debe estar colocado en una zona donde aparezcan Pokémon salvajes. "
+"El bot moverá el personaje hasta que tenga lugar un encuentro. Cuando "
+"sucede, se detecta que una batalla ha comenzado.Mediante OCR (Optical "
+"Character Recognition), la especie de Pokémon salvaje es identificada. Si se "
+"ha especificado capturar esa especie, se inicia la rutina de captura; si no, "
+"el bot finaliza el encuentro huyendo. En cualquier caso, se vuelve a andar "
+"hasta encontrar otro Pokémon salvaje. Además de la especie y con la "
+"configuración adecuada, el bot es capaz de identificar la habilidad del "
+"Pokémon salvaje. "
+
+#: .\main\templates\main\botPro.html:65
+msgid "bot_howitworks_2"
+msgstr ""
+"A través de esta interfaz gráfica pueden configurarse todos los parámetros "
+"como la dirección y amplitud de desplazamiento. A través de los botones"
+
+#: .\main\templates\main\botPro.html:66
+msgid "bot_howitworks_2_1"
+msgstr " y "
+
+#: .\main\templates\main\botPro.html:67
+msgid "bot_howitworks_2_2"
+msgstr ""
+"se pueden añadir o eliminar Pokémon que el bot reconocerá y capturará en el "
+"juego."
+
+#: .\main\templates\main\botPro.html:70
+msgid "bot_howitworks_3"
+msgstr ""
+"La lista de Pokémon y sus habilidades se obtienen de una base de datos local "
+"SQlite, creada mediante Web Scrapping desde "
+
+#: .\main\templates\main\botPro.html:71
+msgid "bot_aqui"
+msgstr "aquí"
+
+#: .\main\templates\main\botPro.html:73
+msgid "bot_howitworks_4"
+msgstr ""
+"En la parte inferior de la interfaz se dispone de un contador que registra "
+"los encuentros con Pokémon salvajes que han tenido lugar una sesión "
+"concreta. "
+
+#: .\main\templates\main\botPro.html:79
+msgid "bot_extra_header"
+msgstr "Funcionalidades adicionales"
+
+#: .\main\templates\main\botPro.html:80
+msgid "bot_pokedex_header"
+msgstr "Pokédex"
+
+#: .\main\templates\main\botPro.html:81
+msgid "bot_pokedex_0"
+msgstr "Con la base de datos local, se ha recreado la Pokédex."
+
+#: .\main\templates\main\botPro.html:87
+msgid "bot_pokedex_1"
+msgstr ""
+"A través del menú desplegable se puede seleccionar un Pokémon, lo que "
+"generará una consulta SQL a la base de datos y mostrará las estadísticas "
+"base del Pokémon en pantalla, junto con su imagen animada. "
+
+#: .\main\templates\main\botPro.html:91
+msgid "bot_telegram_header"
+msgstr "Bot de Telegram"
+
+#: .\main\templates\main\botPro.html:92
+msgid "bot_telegram_0"
+msgstr ""
+"Paralelamente al bot del juego, se ha creado un bot para Telegram que "
+"permite realizar un seguimiento de las capturas."
+
+#: .\main\templates\main\botPro.html:94
+msgid "bot_telegram_1"
+msgstr ""
+"Cuando se captura un Pokémon, el juego proporciona una vista previa en la "
+"que se muestran los atributos del Pokémon recién capturado."
+
+#: .\main\templates\main\botPro.html:102
+msgid "bot_telegram_2"
+msgstr ""
+"El bot busca la vista previa en la pantalla, la recorta y la envía al móvil "
+"del jugador por Telegram."
+
+#: .\main\templates\main\experiencia.html:7
+msgid "experience_page_title"
+msgstr "Experiencia"
+
+#: .\main\templates\main\experiencia.html:18
+msgid "header_work_experience"
+msgstr "Experiencia laboral"
+
+#: .\main\templates\main\experiencia.html:26
+msgid "job_role"
+msgstr "Ingeniero de validación de sistemas inteligentes de transporte"
+
+#: .\main\templates\main\experiencia.html:32
+msgid "header_proyects"
+msgstr "Proyectos"
+
+#: .\main\templates\main\experiencia.html:41
+msgid "pokemon_bot"
+msgstr ""
+"Bot para automatización de tareas en el videojuego MMO Pokémon Revolution "
+"Online"
+
+#: .\main\templates\main\experiencia.html:51
+msgid "header_publications"
+msgstr "Publicaciones"
+
+#: .\main\templates\main\experiencia.html:61
+msgid "article-title"
+msgstr ""
+"Análisis de visibilidad para la detección y caracterización de oclusiones en "
+"nubes de puntos de entornos urbanos adquiridas con Escaner Láser Móvil (MLS, "
+"Mobile Laser Scanning)"
+
+#: .\main\templates\main\extra.html:7
+msgid "extra_page_title"
+msgstr "Más Cosas"
+
+#: .\main\templates\main\extra.html:18
+msgid "header_minigames"
+msgstr "Minijuegos"
+
+#: .\main\templates\main\extra.html:27
+msgid "JIAY"
+msgstr "JIAY"
+
+#: .\main\templates\main\formacion.html:7
+msgid "education_page_title"
+msgstr "Formación"
+
+#: .\main\templates\main\formacion.html:20
+msgid "header_academic"
+msgstr "Formación académica"
+
+#: .\main\templates\main\formacion.html:29
+msgid "degree_name"
+msgstr ""
+"Grado en Ingeniería Automática y Electrónica por la Universidad de Vigo"
+
+#: .\main\templates\main\formacion.html:35
+msgid "degree_extra_1"
+msgstr ""
+"Programación y diseño de FPGAs y microcontroladores como Arduino o PIC de "
+"Microchip."
+
+#: .\main\templates\main\formacion.html:38
+msgid "degree_extra_2"
+msgstr "Nociones básicas de C, C++, C#, Matlab y desarrollo Android."
+
+#: .\main\templates\main\formacion.html:49
+msgid "header_aditional_knowledge"
+msgstr "Formación adicional"
+
+#: .\main\templates\main\formacion.html:58
+msgid "python"
+msgstr "Python"
+
+#: .\main\templates\main\formacion.html:64
+msgid "pandas"
+msgstr "Pandas"
+
+#: .\main\templates\main\formacion.html:67
+msgid "open3d"
+msgstr "Open3D"
+
+#: .\main\templates\main\formacion.html:70
+msgid "tkinter"
+msgstr "TKinter"
+
+#: .\main\templates\main\formacion.html:73
+msgid "matplotlib"
+msgstr "Matplotlib"
+
+#: .\main\templates\main\formacion.html:76
+msgid "pillow"
+msgstr "Pillow"
+
+#: .\main\templates\main\formacion.html:79
+msgid "multi_thread"
+msgstr "Programación multi-hilo"
+
+#: .\main\templates\main\formacion.html:82
+msgid "opencv"
+msgstr "OpenCV"
+
+#: .\main\templates\main\formacion.html:98
+msgid "django"
+msgstr "Django"
+
+#: .\main\templates\main\formacion.html:103
+msgid "django_description_0"
+msgstr "Soporte multilingüe"
+
+#: .\main\templates\main\formacion.html:104
+msgid "django_description_1"
+msgstr "Tests automáticos"
+
+#: .\main\templates\main\formacion.html:105
+msgid "django_description_2"
+msgstr "Renderización de plantillas según parámetros"
+
+#: .\main\templates\main\formacion.html:106
+msgid "django_description_3"
+msgstr "Reutilización de bloques de código HTML"
+
+#: .\main\templates\main\formacion.html:119
+msgid "aws"
+msgstr "Amazon Web Services"
+
+#: .\main\templates\main\formacion.html:125
+msgid "aws_ec2"
+msgstr "Instancias EC2"
+
+#: .\main\templates\main\formacion.html:128
+msgid "aws_lambda"
+msgstr "Funciones Lambda"
+
+#: .\main\templates\main\formacion.html:131
+msgid "aws_s3"
+msgstr "S3"
+
+#: .\main\templates\main\formacion.html:134
+msgid "aws_eb"
+msgstr "Elastic Beanstalk"
+
+#: .\main\templates\main\formacion.html:137
+msgid "aws_cert_manager"
+msgstr "Certificate Manager"
+
+#: .\main\templates\main\formacion.html:140
+msgid "aws_cloudwatch"
+msgstr "CloudWatch"
+
+#: .\main\templates\main\formacion.html:143
+msgid "aws_budget"
+msgstr "Presupuestos"
+
+#: .\main\templates\main\formacion.html:158
+msgid "web_langs"
+msgstr "HTML / CSS / Javascript / PHP"
+
+#: .\main\templates\main\formacion.html:164
+msgid "web_langs_description"
+msgstr ""
+"Estos lenguajes, salvo PHP, fueron utilizados durante el desarrollo de esta "
+"web."
+
+#: .\main\templates\main\formacion.html:180
+msgid "git"
+msgstr "Git"
+
+#: .\main\templates\main\formacion.html:185
+msgid "git_description_0"
+msgstr "GitHub"
+
+#: .\main\templates\main\formacion.html:186
+msgid "git_description_1"
+msgstr "GitLab"
+
+#: .\main\templates\main\formacion.html:199
+msgid "csharp_lang"
+msgstr "C#"
+
+#: .\main\templates\main\formacion.html:205
+msgid "csharp_lang_description"
+msgstr "2 meses de aprendizaje autónomo en el entorno de desarrollo Unity."
+
+#: .\main\templates\main\index.html:7
+msgid "foto_texto_0"
+msgstr "Viaje a Roma"
+
+#: .\main\templates\main\index.html:7
+msgid "foto_texto_1"
+msgstr "Pipo y yo"
+
+#: .\main\templates\main\index.html:7
+msgid "foto_texto_2"
+msgstr "Mi mejor curry"
+
+#: .\main\templates\main\index.html:11
+msgid "index_page_title"
+msgstr "Inicio"
+
+#: .\main\templates\main\index.html:18
+msgid "index_button_education"
+msgstr "Formación"
+
+#: .\main\templates\main\index.html:25
+msgid "index_button_experience"
+msgstr "Experiencia"
+
+#: .\main\templates\main\index.html:31
+msgid "index_button_extrastuff"
+msgstr "Más cosas"
+
+#: .\main\templates\main\index.html:54
+msgid "About me"
+msgstr "Sobre mí"
+
+#: .\main\templates\main\index.html:75
+msgid "index_me_description_0"
+msgstr ""
+"Me llamo Jose y tengo 24 años. Soy natural de Salceda de Caselas, un pueblo "
+"cerca de Vigo. La pizza es mi comida favorita pero no la como muy a menudo "
+"para que sea aún más favorita."
+
+#: .\main\templates\main\index.html:77
+msgid "index_me_description_1"
+msgstr ""
+"Me encanta viajar, la cocina y los videojuegos. Si no estoy programando, "
+"quizás esté haciendo alguna de estas tres cosas. También me gusta mucho leer."
+
+#: .\main\templates\main\index.html:79
+msgid "index_me_description_2"
+msgstr ""
+"Hablo español y gallego indistintamente, son mis lenguas nativas. Domino el "
+"inglés y ahora estoy estudiando alemán. En 2020 trabajé en Köln como Aupair "
+"durante un mes y medio, a la vez que aprendía alemán en la escuela de "
+"idiomas. Cuando me defienda un poquito mejor, mi siguiente objetivo será el "
+"francés."
+
+#: .\main\templates\main\index.html:81
+msgid "index_me_description_3"
+msgstr ""
+"Ahora mismo trabajo como desarrollador Python a tiempo completo, es el "
+"idioma en el que me siento más cómodo. Tengo nociones básicas de otros "
+"lenguajes pero aún no he llegado a desenvolverlos profesionalmente."
+
+#: .\main\templates\main\index.html:84
+msgid "index_me_description_4"
+msgstr "Puedes descargar mi CV en "
+
+#: .\main\templates\main\index.html:84
+msgid "index_me_description_5"
+msgstr "español"
+
+#: .\main\templates\main\index.html:84
+msgid "index_me_description_6"
+msgstr " y en "
+
+#: .\main\templates\main\index.html:84
+msgid "index_me_description_7"
+msgstr "inglés"
+
+#: .\main\templates\main\only_desktop.html:7
+msgid "only_desktop_page_title"
+msgstr "Uy! Hay un problema..."
+
+#: .\main\templates\main\only_desktop.html:19
+msgid "only_desktop_msg"
+msgstr "Esta página sólo está disponible en ordenador. Lo siento. "
+
+#: .\main\templates\main\spaceInvaders.html:11
+msgid "JIAY_page_title"
+msgstr "JIAY"
+
+#~ msgid "aws_description"
+#~ msgstr "Amazon Web Services"
+
+#~ msgid "text"
+#~ msgstr "aa"
+
+#~ msgid "Oups somehting went wrong"
+#~ msgstr "ups"
+
+#~ msgid "sql_lang"
+#~ msgstr "Bases de datos SQL"
+
+#~ msgid "English"
+#~ msgstr "Inglés"
+
+#~ msgid "Spanish"
+#~ msgstr "Español"

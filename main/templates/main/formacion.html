@@ -1,0 +1,219 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'education_page_title' %}</title>
+    </head>
+    <body id="formacion">
+
+
+        <div class="bt_back_div">
+            {% include "main/bloques_codigo/bt_back.html" %}
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+        
+        <div class="tituloPag">
+
+            <div class="apartado">
+                <h1>{% trans 'header_academic' %}</h1>
+                <!--  UNIVERSIDAD DE VIGO   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/uvigo.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'degree_name' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="mono_col">
+                            <li>
+                                {% trans 'degree_extra_1' %}
+                            </li>
+                            <li>
+                                {% trans 'degree_extra_2' %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="apartado">
+                <h1>{% trans 'header_aditional_knowledge' %}</h1>
+                <!--  PYTHON   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/python.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'python' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="tri_col">
+                            <li>
+                                {% trans 'pandas' %}
+                            </li>
+                            <li>
+                                {% trans 'open3d' %}
+                            </li>
+                            <li>
+                                {% trans 'tkinter' %}
+                            </li>
+                            <li>
+                                {% trans 'matplotlib' %}
+                            </li>
+                            <li>
+                                {% trans 'pillow' %}
+                            </li>
+                            <li>
+                                {% trans 'multi_thread' %}
+                            </li>
+                            <li>
+                                {% trans 'opencv' %}
+                            </li>
+                                                     
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--  DJANGO   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/django.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'django' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="mono_col">
+                            <li>{% trans 'django_description_0' %}</li>
+                            <li>{% trans 'django_description_1' %}</li>
+                            <li>{% trans 'django_description_2' %}</li>                
+                            <li>{% trans 'django_description_3' %}</li>                
+                        </ul>
+                    </div>
+                </div>
+
+                <!--  AWS   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/aws.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'aws' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="tri_col">
+                            <li>
+                                {% trans 'aws_ec2' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_lambda' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_s3' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_eb' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_cert_manager' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_cloudwatch' %}
+                            </li>
+                            <li>
+                                {% trans 'aws_budget' %}
+                            </li>
+                                                        
+                        </ul>
+                    </div>
+                </div>
+
+                <!--  WEB DEV   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/weblogo.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'web_langs' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="mono_col">
+                            <li>
+                                {% trans 'web_langs_description' %}
+                            </li>
+                                                     
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--  GIT   -->
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/git.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'git' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="mono_col">
+                            <li>{% trans 'git_description_0' %}</li>
+                            <li>{% trans 'git_description_1' %}</li>                        
+                        </ul>
+                    </div>
+                </div>
+
+                <!--  C#   -->
+                <!--<div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images/c.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'csharp_lang' %}
+                        </p>
+                    </div>
+                    <div class="extra_info">
+                        <ul class="mono_col">
+                            <li>
+                                {% trans 'csharp_lang_description' %}
+                            </li>
+                                                     
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        
+        {% include "main/bloques_codigo/footer.html" %}
+
+
+        <script src="{% static 'main/expand_collapse.js' %}"></script> 
+    </body>
+</html>

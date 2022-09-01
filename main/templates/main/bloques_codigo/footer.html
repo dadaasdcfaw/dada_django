@@ -1,0 +1,55 @@
+{% load static %}
+{% load i18n %}
+<footer>
+    <table>
+        <tr>
+            <th>Jose Barros Ribademar</th>
+            <th class="columna_central_header">{% trans 'footer_contact_header' %}</th>
+            <th>{% trans 'footer_social_header' %}</th>
+        </tr>
+        <tr>
+            
+            <td>
+                <p>{% trans 'footer_academic_title' %}</p>
+            </td>
+            <td class="columna_central">
+                <p>{% trans 'footer_mail_address_0' %}<wbr>{% trans 'footer_mail_address_1' %}</p>
+            </td>
+            <td>
+                <div class="icono_texto">
+                    <a href="https://www.linkedin.com/in/jose-barros-ribademar">
+                        <div class="img_cont_footer">
+                            <img src="{% static 'images\linkedin.png' %}" alt="linkedinlogo">
+                        </div>
+                        <p >{% trans 'footer_linkedin' %}</p>
+                    </a>
+                </div>
+                <div class="icono_texto">
+                    <a href="https://github.com/dadaasdcfaw">
+                        <div class="img_cont_footer">
+                            <img src="{% static 'images\github.png' %}" alt="githublogo">
+                        </div>
+                        <p>{% trans 'footer_github' %}</p>
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div id="separator"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <div class="iconCredit">
+                    <a href="https://www.flaticon.com/animated-icons-most-downloaded">{% trans 'footer_copyright_icons' %}</a>
+                </div>
+                <p class="iconCredit">
+                    {% trans 'favicon_credit_0' %}
+                    <a href="https://creativecommons.org/licenses/by/4.0/">{% trans 'favicon_credit_1' %}</a>
+                </p>
+            </td>
+        </tr>
+
+    </table>
+</footer>

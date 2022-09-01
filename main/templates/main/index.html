@@ -1,0 +1,93 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="{% static 'main/script.js' %}"
+        foto_textos_array= '["{% trans "foto_texto_0" %}", "{% trans "foto_texto_1" %}", "{% trans "foto_texto_2" %}"]'>
+        </script>
+
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'index_page_title' %}</title>
+    </head>
+    <body>
+        <div id="div_botonesTop">
+            <a href="formacion">
+                <button>
+                    <img src="{% static 'images/mortarboard.gif' %}" alt="miss img" class="dibujosBT_top" id="foto_birrete">
+                    <p class="textoBT_top">{% trans 'index_button_education' %}</p>
+                </button>
+                
+            </a>      
+            <a href="experiencia">
+                <button>
+                    <img src="{% static 'images/briefcase.gif' %}" alt="miss img" class="dibujosBT_top">
+                    <p class="textoBT_top">{% trans 'index_button_experience' %}</p>
+                </button>
+            </a>
+            <a href="extra">
+                <button>
+                    <img src="{% static 'images/cube.gif' %}" alt="miss img" class="dibujosBT_top">
+                    <p class="textoBT_top">{% trans 'index_button_extrastuff' %}</p>
+                </button>
+            </a>
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+
+        <div id="ppal">
+            <div id="presentacion">
+                <div id="divFoto">
+                    <div id="storie_container">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    <p id="fotoTitle">Viaje a Roma</p>
+                    <div id="fotoNegro"></div>
+                    <img class="foto" src="{% static 'images\slider\yo.jpeg' %}" alt="nada">
+                    <img class="foto" src="{% static 'images\slider\pipo.jpg' %}" alt="nada">
+                    <img class="foto" src="{% static 'images\slider\curry.jpg' %}" alt="nada">
+                </div>
+    
+                <div id="cosasLadoFoto">
+                    <div id="titulo_div">
+                        <h1>{% trans 'About me' %}</h1>
+                        <!--<div id="banderasContainer">
+                            
+                            <a class="banderaIcon" href="index.html">
+                                <div class="fill_img">
+                                    <img src="images/bandera/ES.png" alt="">
+                                </div>
+                            </a>
+                            <a class="banderaIcon" href="https://www-dadaasdcfaw-me.translate.goog/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp">
+                                <div class="fill_img">
+                                    <img src="{% static 'images/bandera/EN.png' %}" alt="aa">
+                                </div>
+                            </a>
+                            <a class="banderaIcon" href="https://www-dadaasdcfaw-me.translate.goog/?_x_tr_sl=es&_x_tr_tl=de&_x_tr_hl=es&_x_tr_pto=wapp">
+                                <div class="fill_img">
+                                    <img src="{% static 'images/bandera/DE.png' %}" alt="">
+                                </div>
+                            </a>
+                        </div>!-->
+                    </div>
+                    <p id="parrafo">
+                        {% trans 'index_me_description_0' %}
+                        <br><br>
+                        {% trans 'index_me_description_1' %}
+                        <br><br>
+                        {% trans 'index_me_description_2' %}
+                        <br><br>
+                        {% trans 'index_me_description_3' %}
+                    </p>
+                    <p id="texto_CV">
+                        {% trans 'index_me_description_4' %}<a href="downloads\CV_JoseBarrosRibademar_ES.pdf" download>{% trans 'index_me_description_5' %}</a>{% trans 'index_me_description_6' %}<a href="downloads\CV_JoseBarrosRibademar_EN.pdf" download>{% trans 'index_me_description_7' %}</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        {% include "main/bloques_codigo/footer.html" %}
+
+    </body>
+</html>

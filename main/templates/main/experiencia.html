@@ -1,0 +1,74 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include "main/bloques_codigo/header_links.html" %}
+        <title>{% trans 'experience_page_title' %}</title>
+    </head>
+    <body id="experiencia">
+        <div class="bt_back_div">
+            {% include "main/bloques_codigo/bt_back.html" %}
+            {% include "main/bloques_codigo/lang_form.html" %}
+        </div>
+        
+        <div class="tituloPag">
+
+            <div class="apartado">
+                <h1>{% trans 'header_work_experience' %}</h1>
+                <div class="tarjeta_item">
+                    <div class="row">
+                        <div class="img_cont">
+                            <img src="{% static 'images\CTAG-Logo.png' %}" alt="boticon">
+                        </div>
+
+                        <p class="header_text">
+                            {% trans 'job_role' %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="apartado">
+                <h1>{% trans 'header_proyects' %}</h1>
+                <div class="tarjeta_item">
+                    <a class="clickable_li" href="botPokemon">
+                        <div class="row">       
+                            <div class="img_cont">
+                                <img src="{% static 'images\prologo.png' %}" alt="boticon">
+                            </div>
+    
+                            <p class="header_text">
+                                {% trans 'pokemon_bot' %}
+                            </p>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            
+
+            <div class="apartado">
+                <h1>{% trans 'header_publications' %}</h1>
+                <div class="tarjeta_item">
+                    
+                    <a href="https://www.tandfonline.com/doi/full/10.1080/10106049.2022.2032392">
+                        <div class="row">
+                            <div class="img_cont">
+                                <img src="{% static 'images\geocarto.png' %}" alt="boticon">
+                            </div>
+    
+                            <p class="header_text">
+                                {% trans 'article-title' %}
+                            </p>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        
+        {% include "main/bloques_codigo/footer.html" %}
+
+    </body>
+</html>
